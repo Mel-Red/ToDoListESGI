@@ -25,4 +25,5 @@ describe("test user validity", () => {
     const user = new User("test@test.fr", "test", "test", 13);
     expect(user.isValid()).toBe(true);
   });
-});
+})
+// Tests
